@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    
+    string s="abba";
+    string s1=s;
+  	reverse(s.begin(),s.end());
+  	if(s==s1)cout<<"palindrom"<<endl;
+  	else
+  		cout<<"Not palindrom"<<endl;
+    
+	return 0;
+}
