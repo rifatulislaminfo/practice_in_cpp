@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    
+    int t;
+    cin>>t;
+
+    while(t--){
+
+    	string s;
+
+    	char c;
+    	cin>>c;
+
+    	getline(cin,s);
+    	s=c+s;;
+    	cout<<s<<endl;
+    }
+    
+	return 0;
+}
